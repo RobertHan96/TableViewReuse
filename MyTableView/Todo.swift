@@ -10,5 +10,6 @@ import Foundation
 
 struct Todo {
     var todo:String?
-    var isDone:Bool?
+    var isDone:Bool = false
+    var image:String?
 }
